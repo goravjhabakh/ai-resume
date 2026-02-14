@@ -227,6 +227,17 @@
       opacity: 0.4;
     }
   }
+
+  --animate-shine: shine 8s ease-in-out infinite;
+
+  @keyframes shine {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: -200% 0;
+    }
+  }
 }
 
 ::-webkit-scrollbar {
